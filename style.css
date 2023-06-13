@@ -159,123 +159,163 @@
   }
   
   .swiper-slide--one {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-       url(images/1.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   
   .swiper-slide--two {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/2.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   
   .swiper-slide--three {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/3.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   
   .swiper-slide--four {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/4.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   
   .swiper-slide--five {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/5.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--six {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/6.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--seven {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/7.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--eight {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/8.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/8.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--nine {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/9.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/9.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--ten {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/10.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/10.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--eleven {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/11.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--twelve {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/12.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/12.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--thirteen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/13.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/13.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--fourteen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/14.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/14.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--fifteen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/15.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/15.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--sixteen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/16.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/16.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--seventeen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/17.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/17.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--eighteen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/18.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/18.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--nineteen {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/19.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/19.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .swiper-slide--twenty {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-      url(images/20.jpg)
-        no-repeat 50% 50% / cover;
+    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+    background-image: url(images/20.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   
   .swiper-3d .swiper-slide-shadow-left,
@@ -283,14 +323,17 @@
     background-image: none;
   }
   
-  @media screen and (min-width: 48px) {
+  @media screen and (min-width: 768px) {
     main {
       display: flex;
       align-items: center;
     }   
+    .main__warning{
+      opacity: 0.1;
+    }
   }
   
-  @media screen and (min-width: 93.75px) {
+  @media screen and (min-width: 1500px) {
     .swiper {
       width: 85%;
     }
