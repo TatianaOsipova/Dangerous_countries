@@ -23,21 +23,12 @@
     color: #5561e9;
   }
   
-  .main__warning {
+  .main__warning-first {
     position: fixed;
     top: 10px;
     left: 12px;
     z-index: -1;
-  }
-  
-  .bg2 {
-    position: fixed;
-    bottom: -2rem;
-    right: -3rem;
-    z-index: -1;
-    width: 9.375rem;
-    opacity: 0;
-  }
+  }  
   
   main > div span {
     text-transform: uppercase;
