@@ -17,6 +17,11 @@
   .main__info{
     max-width: 450px;
   }
+
+  .main__info-link {
+    text-decoration: underline;
+    color: #5561e9;
+  }
   
   .bg {
     position: fixed;
