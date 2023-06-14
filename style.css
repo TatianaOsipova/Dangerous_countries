@@ -96,12 +96,12 @@ main>div>a:hover {
 
 .swiper-pagination-bullet,
 .swiper-pagination-bullet-active {
-  background: #000000;
+  background: #fff;
 }
 
 .swiper-pagination {
-  bottom: 180px !important;
-  padding-left: 500px;
+  bottom: 20px !important;
+  /* padding-left: 500px; */
 }
 
 .swiper-slide {
@@ -323,16 +323,16 @@ main>div>a:hover {
   background-image: none;
 }
 
-.soundbutton{
+.soundbutton {
   position: fixed;
   bottom: 5vh;
   right: 5vw;
   cursor: pointer;
-  width: 40px;    
+  width: 40px;
   transition: .25s ease;
 }
 
-.soundbutton.paused{
+.soundbutton.paused {
   opacity: 0.25;
 }
 
