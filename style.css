@@ -127,10 +127,10 @@ main>div>a:hover {
 .swiper-slide p {
   color: #dadada;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   padding: 0 25px;
   line-height: 1.6;
-  font-size: 12px;
+  font-size: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
