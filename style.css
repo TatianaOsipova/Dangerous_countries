@@ -1,340 +1,354 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  position: relative;
+  width: calc(min(1440px, 90%));
+  margin: 0 auto;
+  min-height: 100vh;
+  column-gap: 48px;
+  padding-block: min(20vh, 48px);
+}
+
+.main__info {
+  max-width: 450px;
+}
+
+.main__info-link {
+  text-decoration: underline;
+  color: #5561e9;
+}
+
+.main__warning {
+  position: fixed;
+  top: 10px;
+  left: 12px;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+main>div span {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  color: #717171;
+}
+
+main>div h1 {
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: clamp(55px, 52px + 0.75vw, 64px);
+  background-color: #005baa;
+  background-image: linear-gradient(45deg, #0a0a0a, #f80505);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+main>div hr {
+  display: block;
+  background: #0a0a0a;
+  height: 4px;
+  width: 100px;
+  border: none;
+  margin: 18px 0 30px 0;
+}
+
+main>div p {
+  line-height: 1.6;
+}
+
+main a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717171;
+  font-weight: 500;
+  background: #fff;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+main>div>a {
+  border: 2px solid #c2c2c2;
+  margin-top: 35px;
+  padding: 10px 30px;
+}
+
+main>div>a:hover {
+  border: 2px solid #005baa;
+  color: #005baa;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #000000;
+}
+
+.swiper-pagination {
+  bottom: 180px !important;
+  padding-left: 500px;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  padding: 0 0 0 25px;
+  text-transform: uppercase;
+}
+
+.swiper-slide p {
+  color: #dadada;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0 25px;
+  line-height: 1.6;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.swiper-slide a {
+  margin: 20px 25px 55px 25px;
+  padding: 7px 30px;
+  font-size: 14px;
+}
+
+.swiper-slide a:hover {
+  color: #005baa;
+}
+
+.swiper-slide div {
+  display: none;
+  opacity: 0;
+  padding-bottom: 10px;
+}
+
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+
+.swiper-slide--one {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--two {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--three {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--four {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--five {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/5.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--six {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/6.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--seven {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/7.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--eight {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/8.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--nine {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/9.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--ten {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/10.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--eleven {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/11.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--twelve {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/12.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--thirteen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/13.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--fourteen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/14.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--fifteen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/15.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--sixteen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/16.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--seventeen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/17.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--eighteen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/18.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--nineteen {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/19.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-slide--twenty {
+  background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-image: url(images/20.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.soundbutton{
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  cursor: pointer;
+  width: 40px;    
+  transition: .25s ease;
+}
+
+.soundbutton.paused{
+  opacity: 0.25;
+}
+
+@media screen and (min-width: 768px) {
   main {
-    position: relative;
-    width: calc(min(1440px, 90%));
-    margin: 0 auto;
-    min-height: 100vh;
-    column-gap: 48px;
-    padding-block: min(20vh, 48px);
-  }
-
-  .main__info{
-    max-width: 450px;
-  }
-
-  .main__info-link {
-    text-decoration: underline;
-    color: #5561e9;
-  }
-  
-  .main__warning{
-    position: fixed;
-    top: 10px;
-    left: 12px;
-    z-index: -1;
-    opacity: 0.2;
-  }  
-  
-  main > div span {
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 16px;
-    color: #717171;
-  }
-  
-  main > div h1 {
-    text-transform: capitalize;
-    letter-spacing: 0.8px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: clamp(55px, 52px + 0.75vw, 64px);
-    background-color: #005baa;
-    background-image: linear-gradient(45deg, #0a0a0a, #f80505);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-  }
-  
-  main > div hr {
-    display: block;
-    background: #0a0a0a;
-    height: 4px;
-    width: 100px;
-    border: none;
-    margin: 18px 0 30px 0;
-  }
-  
-  main > div p {
-    line-height: 1.6;
-  }
-  
-  main a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #717171;
-    font-weight: 500;
-    background: #fff;
-    border-radius: 50px;
-    transition: 0.3s ease-in-out;
-  }
-  
-  main > div > a {
-    border: 2px solid #c2c2c2;
-    margin-top: 35px;
-    padding: 10px 30px;
-  }
-  
-  main > div > a:hover {
-    border: 2px solid #005baa;
-    color: #005baa;
-  }  
-  
-  .swiper {
-    width: 100%;
-    padding-top: 50px;
-  }
-  
-  .swiper-pagination-bullet,
-  .swiper-pagination-bullet-active {
-    background: #000000;
-  }
-  
-  .swiper-pagination {
-    bottom: 180px !important;
-    padding-left: 500px;
-  }
-  
-  .swiper-slide {
-    width: 300px;
-    height: 450px;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: self-start;
-  }
-  
-  .swiper-slide h2 {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 1.4;
-    margin-bottom: 10px;
-    padding: 0 0 0 25px;
-    text-transform: uppercase;
-  }
-  
-  .swiper-slide p {
-    color: #dadada;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    padding: 0 25px;
-    line-height: 1.6;
-    font-size: 12px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  
-  .swiper-slide a {
-    margin: 20px 25px 55px 25px;
-    padding: 7px 30px;
-    font-size: 14px;
-  }
-  
-  .swiper-slide a:hover {
-    color: #005baa;
-  }
-  
-  .swiper-slide div {
-    display: none;
-    opacity: 0;
-    padding-bottom: 10px;
-  }
-  
-  .swiper-slide-active div {
-    display: block;
-    opacity: 1;
-  }
-  
-  .swiper-slide--one {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/1.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  
-  .swiper-slide--two {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/2.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  
-  .swiper-slide--three {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/3.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  
-  .swiper-slide--four {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/4.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  
-  .swiper-slide--five {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/5.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    align-items: center;
   }
 
-  .swiper-slide--six {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/6.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+  .main__warning {
+    opacity: 0.1;
   }
+}
 
-  .swiper-slide--seven {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/7.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+@media screen and (min-width: 1500px) {
+  .swiper {
+    width: 85%;
   }
-
-  .swiper-slide--eight {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/8.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--nine {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/9.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--ten {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/10.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--eleven {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/11.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--twelve {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/12.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--thirteen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/13.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--fourteen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/14.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--fifteen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/15.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--sixteen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/16.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--seventeen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/17.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--eighteen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/18.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--nineteen {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/19.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .swiper-slide--twenty {
-    background-color: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
-    background-image: url(images/20.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  
-  .swiper-3d .swiper-slide-shadow-left,
-  .swiper-3d .swiper-slide-shadow-right {
-    background-image: none;
-  }
-  
-  @media screen and (min-width: 768px) {
-    main {
-      display: flex;
-      align-items: center;
-    }   
-    .main__warning{
-      opacity: 0.1;
-    }
-  }
-  
-  @media screen and (min-width: 1500px) {
-    .swiper {
-      width: 85%;
-    }
-  }
+}
