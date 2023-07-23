@@ -111,6 +111,11 @@ main>div>a:hover {
   flex-direction: column;
   justify-content: end;
   align-items: self-start;
+  filter: blur(4px);
+}
+
+.swiper-slide-active{
+  filter: blur(0);
 }
 
 .swiper-slide h2 {
